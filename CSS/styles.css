@@ -474,20 +474,16 @@ button {
     border: 1px solid var(--team-social-list-and-cliends-icon-color);
     border-radius: 4px;
     color: var(--team-social-list-and-cliends-icon-color);
-    transition: border-color var(--transition-delay-and-duration);
+    transition: border-color var(--transition-delay-and-duration),
+        color var(--transition-delay-and-duration);
+
 }
 
 .clients-icon {
     fill: currentColor;
-    transition: fill var(--transition-delay-and-duration);
-}
-
-.clients-icon:focus,
-.clients-icon:focus {
-    fill: var(--acent-color);
-
 
 }
+
 
 .clients-link:hover,
 .clients-link:focus {
