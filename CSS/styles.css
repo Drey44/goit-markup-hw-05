@@ -336,6 +336,17 @@ button {
 
 /*=========/Особенности(features)=========*/
 
+
+
+/*=========Чем мы занимаемся=========*/
+.work-list {
+    display: flex;
+    /* как вариант можно использовать justify-content: space-between;*/
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
 .work-list-item {
     position: relative;
 }
@@ -357,17 +368,9 @@ button {
     color: var(--white-color);
 }
 
-
-/*=========Чем мы занимаемся=========*/
-.work-list {
-    display: flex;
-    /* как вариант можно использовать justify-content: space-between;*/
-    gap: 30px;
-    flex-wrap: wrap;
-
-}
-
 /*=========/Чем мы занимаемся=========*/
+
+
 /*=========Наша команда(Team)=========*/
 .team-section {
     background: #F5F4FA;
